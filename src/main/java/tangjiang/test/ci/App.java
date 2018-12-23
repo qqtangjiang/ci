@@ -18,7 +18,7 @@ public class App
      * test
      */
     public void test() {
-    	
+    	this.haha();
     }
     /**
      * haha
