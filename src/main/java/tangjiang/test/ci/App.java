@@ -15,9 +15,15 @@ public class App
         System.out.println(System.getProperty("p1"));
     }
     /**
-     * haha
+     * test
      */
     public void test() {
+    	
+    }
+    /**
+     * haha
+     */
+    public void haha() {
     	
     }
 }
