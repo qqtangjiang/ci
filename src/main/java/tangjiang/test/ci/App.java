@@ -33,7 +33,7 @@ public class App
         CloseableHttpClient  chc = HttpClientBuilder.create().setConnectionManager(hcm).setSSLSocketFactory(sslSocketFactory).build();
         HttpUriRequest request = new HttpGet(args[0]);
         HttpResponse res = chc.execute(request);
-        logger.info(EntityUtils.toString(res.getEntity()));
+        System.out.println(EntityUtils.toString(res.getEntity()));
     }
     
 }
