@@ -1,7 +1,5 @@
 package tangjiang.test.ci;
 
-import java.util.logging.Logger;
-
 import javax.net.ssl.SSLContext;
 
 import org.apache.http.HttpResponse;
@@ -14,6 +12,7 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.impl.conn.BasicHttpClientConnectionManager;
 import org.apache.http.util.EntityUtils;
+import org.slf4j.LoggerFactory;
 
 /**
  * @version 1.0
@@ -22,7 +21,7 @@ import org.apache.http.util.EntityUtils;
  */
 public class App 
 {
-	static Logger logger  = Logger.getLogger(App.class.getName());
+	static org.slf4j.Logger logger  = LoggerFactory.getLogger(App.class);
     public static void main( String[] args ) throws Exception
     {
 //        System.out.println( "Hello World!" );
