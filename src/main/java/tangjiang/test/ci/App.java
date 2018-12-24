@@ -25,8 +25,8 @@ public class App
 	static Logger logger  = Logger.getLogger(App.class.getName());
     public static void main( String[] args ) throws Exception
     {
-        System.out.println( "Hello World!" );
-        System.out.println(System.getProperty("p1"));
+//        System.out.println( "Hello World!" );
+//        System.out.println(System.getProperty("p1"));
         HttpClientConnectionManager hcm = new BasicHttpClientConnectionManager();
         SSLContext sslContext = SSLContext.getDefault();
         SSLConnectionSocketFactory sslSocketFactory = new SSLConnectionSocketFactory(sslContext,new NoopHostnameVerifier() );
