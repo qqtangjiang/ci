@@ -12,7 +12,6 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.impl.conn.BasicHttpClientConnectionManager;
 import org.apache.http.util.EntityUtils;
-import org.slf4j.LoggerFactory;
 
 /**
  * @version 1.0
@@ -21,7 +20,7 @@ import org.slf4j.LoggerFactory;
  */
 public class App 
 {
-	static org.slf4j.Logger logger  = LoggerFactory.getLogger(App.class);
+//	static org.slf4j.Logger logger  = LoggerFactory.getLogger(App.class);
     public static void main( String[] args ) throws Exception
     {
 //        System.out.println( "Hello World!" );
